@@ -9,7 +9,7 @@ A Agrotis é uma empresa que desde 1991 contribue com o desenvolvimento de siste
 ## Sobre o desafio
 Você não terá data de entrega limite para essa prova, mas fique atento pois vamos avaliar mais rigorosamente seu código quanto mais demorar para entregar a partir da data em que foi feito o fork desse repositório. A ideia é simples, você terá que desenvolver 2 telas (com dados falsos mesmo) seguindo alguns pré requisitos e o seguinte layout:
 
-
+![Desafio](images/desafio.png?raw=true "Desafio")
 
 ## Pré requisitos
 * [ ] React ou Angular
@@ -20,6 +20,7 @@ Você não terá data de entrega limite para essa prova, mas fique atento pois v
 ## Dicas
 - Styled Components
 - Seguir Material Design Guidelines
+- React Router
 
 ## Diferenciais
 - Criar issues e resolvê-las a partir de pull requests
@@ -38,3 +39,7 @@ Você não terá data de entrega limite para essa prova, mas fique atento pois v
 - Preciso necessariamente fazer um fork do projeto?
 
 **Sim, para que possamos saber quanto tempo você levou para executar o desafio**
+
+- Aonde estão os assets?
+
+**Esse desafio não te dá nenhum asset, você terá que buscá-los sozinho**
