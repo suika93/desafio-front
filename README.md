@@ -30,6 +30,13 @@ Você não terá data de entrega limite para essa prova, mas fique atento pois v
 - Criação de servidor para os mocks da tela
 - Usabilidade e feedback para o usuário no carregamento da consulta
 - Seguir algum Javascript Style Guide
+- Layout responsivo (seja criativo!)
+
+## Pronto para começar o desafio?
+- Faça um "fork" desse repositório na sua conta do Github
+- Crie uma branch com o seu nome e sobrenome ex: ```patrick-santos```
+- Após completar o desafio, crie um "pull request" nesse repositório comparando a sua branch com a master
+- Receberemos uma notificação do seu pull request, faremos a correção da sua solução e entraremos em contato com o email da conta do github em que foi executada o desafio
 
 ## FAQ
 - Posso usar o create-react-app para completar o desafio?
@@ -42,4 +49,8 @@ Você não terá data de entrega limite para essa prova, mas fique atento pois v
 
 - Aonde estão os assets?
 
-**Esse desafio não te dá nenhum asset, você terá que buscá-los sozinho**
+**Esse desafio não te dá nenhum asset, você terá que buscá-los por conta própria**
+
+- Tenho mais dúvidas, com quem posso entrar em contato?
+
+**Entre em contato com [Patrick Santos](https://github.com/santospatrick) (Front-end Developer) ou [Rodrigo Diego](https://www.linkedin.com/in/rodrigo-diego/) (UX Designer), Agrotis Developers elaboradores desse desafio.**
