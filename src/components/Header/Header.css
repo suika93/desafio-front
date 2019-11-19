@@ -1,0 +1,11 @@
+.Header {
+    background: #fff;
+    border: solid 1px #333;
+    padding: 0 15px;
+    margin-bottom: 15px;
+}
+
+.Header--logo {
+    max-width: 160px;
+    margin: 8px 0;
+}
