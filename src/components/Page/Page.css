@@ -1,0 +1,15 @@
+.Page {
+    background: #fff;
+}
+
+.Page--header {
+    background: #2d7c37;
+    color: #eee;
+    padding: 12px 20px;
+    display: flex;
+}
+
+.Page--body {
+    border: solid 1px #ccc;
+    padding: 20px;
+}
