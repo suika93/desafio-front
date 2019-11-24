@@ -16,11 +16,14 @@ const SituationsFeed = ({items}) => {
         useState(INITIAL_NUMBER_OF_VISIBLE_ITEMS)
 
     const loadMore = () => {
+        const increasedLength = numberOfVisibleItems + 2
         const newNumberofVisibleItems =
-            numberOfVisibleItems + 2 > items.length? items.length : numberOfVisibleItems + 2
+                increasedLength > items.length ? 
+                items.length 
+                : increasedLength
 
         setNumberOfVisibleItems(newNumberofVisibleItems)
-     }
+    }
 
     return (<React.Fragment>
         {items.slice(0, numberOfVisibleItems).map(itemsToSituationItemComponent)}
