@@ -1,8 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import { Page } from '../../components/Page'
-import { SituationList } from '../../components/SituationList'
-import { SituationItem } from '../../components/SituationItem'
+import { SituationsFeed } from '../../components/SituationsFeed'
 import { SearchBar } from '../../components/SearchBar'
 import './SituacoesPage.css'
 
@@ -19,14 +18,7 @@ const items = [
     { name: "Andamento", description: "Descrição da situação" },
 ]
 
-const itemsToSituationItemComponent = 
-    (item) => <SituationItem name={item.name} description={item.description} />
-
-const body = (
-    <React.Fragment>
-        <SituationList items={items.map(itemsToSituationItemComponent)}/>
-    </React.Fragment>
-)
+const body = <SituationsFeed items={items} />
 
 const SituacoesPage = () => <Page header={header} body={body} />
 
